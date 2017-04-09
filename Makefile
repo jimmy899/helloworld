@@ -2,7 +2,7 @@
 all: helloworld
 
 install: all
-	cp helloworld /usr/bin
+	# cp helloworld /usr/bin
 
 helloworld: helloworld.c
 	$(CC) -g -o $@ $^ 
