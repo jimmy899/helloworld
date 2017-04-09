@@ -1,0 +1,20 @@
+language: c 
+
+install:
+	- make
+
+compiler:
+	- gcc
+	- clang
+
+notifications:
+	email:
+		recipients:
+			- predic@gmail.com
+		on_success: always
+		on_failure: always
+
+script:
+	/usr/bin/helloworld
+
+
