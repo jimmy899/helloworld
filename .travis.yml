@@ -1,20 +1,20 @@
 language: c 
 
 install:
-	- make
+  - make
 
 compiler:
-	- gcc
-	- clang
+  - gcc
+  - clang
 
 notifications:
-	email:
-		recipients:
-			- predic@gmail.com
-		on_success: always
-		on_failure: always
+  email:
+    recipients:
+      - predic@gmail.com
+    on_success: always
+    on_failure: always
 
 script:
-	/usr/bin/helloworld
+  /usr/bin/helloworld
 
 
